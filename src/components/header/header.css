@@ -1,5 +1,5 @@
 .header {
-  background-color: #003580;
+  background-color: #128275;
   color: white;
   display: flex;
   justify-content: center;
@@ -39,8 +39,8 @@
 }
 
 .headerBtn {
-  background-color: #0071c2;
-  color: white;
+  background-color: whitesmoke;
+  color: black;
   font-weight: 500;
   border: none;
   padding: 10px;
@@ -126,3 +126,8 @@
 .optionCounterButton:disabled {
   cursor: not-allowed;
 }
+
+.headerTitle {
+  font-size: 48px; 
+}
+

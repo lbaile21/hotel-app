@@ -1,10 +1,11 @@
 import {
   faBed,
   faCalendarDays,
-  faCar,
+  faHotel,
   faPerson,
-  faPlane,
-  faTaxi,
+  faHeart,
+  faHouse,
+  faShip,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
@@ -57,33 +58,32 @@ const Header = ({ type }) => {
         <div className="headerList">
           <div className="headerListItem active">
             <FontAwesomeIcon icon={faBed} />
-            <span>Stays</span>
+            <span>Club Resorts</span>
           </div>
           <div className="headerListItem">
-            <FontAwesomeIcon icon={faPlane} />
-            <span>Flights</span>
+            <FontAwesomeIcon icon={faHotel} />
+            <span>Marriott Bonvoy</span>
           </div>
           <div className="headerListItem">
-            <FontAwesomeIcon icon={faCar} />
-            <span>Car rentals</span>
+            <FontAwesomeIcon icon={faShip} />
+            <span>Cruises</span>
           </div>
           <div className="headerListItem">
-            <FontAwesomeIcon icon={faBed} />
-            <span>Attractions</span>
+            <FontAwesomeIcon icon={faHeart} />
+            <span>Guided Tours</span>
           </div>
           <div className="headerListItem">
-            <FontAwesomeIcon icon={faTaxi} />
-            <span>Airport taxis</span>
+            <FontAwesomeIcon icon={faHouse} />
+            <span>Vacation Homes</span>
           </div>
         </div>
         {type !== "list" && (
           <>
             <h1 className="headerTitle">
-              A lifetime of discounts? It's Genius.
+              MORE VACATIONS TO L<FontAwesomeIcon icon={faHeart}/>VE
             </h1>
             <p className="headerDesc">
-              Get rewarded for your travels – unlock instant savings of 10% or
-              more with a free Lamabooking account
+            Manifest more of what you long for most: Rejuvenation. Inspiration. Meaningful moments with family and friends.
             </p>
             <button className="headerBtn">Sign in / Register</button>
             <div className="headerSearch">

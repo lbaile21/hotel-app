@@ -6,6 +6,8 @@ import { useState } from "react";
 import { format } from "date-fns";
 import { DateRange } from "react-date-range";
 import SearchItem from "../../components/searchItem/SearchItem";
+import SearchItem2 from "../../components/searchItem/SearchItem2";
+import SearchItem3 from "../../components/searchItem/SearchItem3";
 
 const List = () => {
   const location = useLocation();
@@ -44,18 +46,6 @@ const List = () => {
               <label>Options</label>
               <div className="lsOptions">
                 <div className="lsOptionItem">
-                  <span className="lsOptionText">
-                    Min price <small>per night</small>
-                  </span>
-                  <input type="number" className="lsOptionInput" />
-                </div>
-                <div className="lsOptionItem">
-                  <span className="lsOptionText">
-                    Max price <small>per night</small>
-                  </span>
-                  <input type="number" className="lsOptionInput" />
-                </div>
-                <div className="lsOptionItem">
                   <span className="lsOptionText">Adult</span>
                   <input
                     type="number"
@@ -74,7 +64,7 @@ const List = () => {
                   />
                 </div>
                 <div className="lsOptionItem">
-                  <span className="lsOptionText">Room</span>
+                  <span className="lsOptionText">Rooms</span>
                   <input
                     type="number"
                     min={1}
@@ -82,20 +72,26 @@ const List = () => {
                     placeholder={options.room}
                   />
                 </div>
+                <div className="lsOptionItem">
+                <span className="lsOptionText">Discount Codes:</span>
+                <select className="lsOptionInput">
+                  <option value="option4">NA</option>
+                  <option value="option1">AAA</option>
+                  <option value="option2">Senior</option>
+                  <option value="option3">Gov</option>
+                  <option value="option4">Promo</option>
+                </select>
+              </div>
               </div>
             </div>
             <button>Search</button>
           </div>
           <div className="listResult">
             <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
+            <SearchItem2 />
+            <SearchItem3 />
+
+
           </div>
         </div>
       </div>
