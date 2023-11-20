@@ -11,7 +11,7 @@ const SearchItem = () => {
       <div className="siDesc">
         <h1 className="siTitle">Marriott's Waikoloa Ocean Club</h1>
         <span className="siDistance">Waikoloa Beach, Big Island, Hawai‘i, United States</span>
-        <span className="siTaxiOp">Tour active volcanoes</span>
+        <span className="siTaxiOp">Top Rated Snorkeling Destination </span>
         <span className="siSubtitle">
         One and Two-bedroom Suites Available
         </span>

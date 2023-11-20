@@ -11,7 +11,7 @@ const SearchItem3 = () => {
       <div className="siDesc">
         <h1 className="siTitle">Marriott's Ko Olina Beach Club®</h1>
         <span className="siDistance">Kapolei, O‘ahu, Hawai‘i, United States</span>
-        <span className="siTaxiOp">Golfer's Paradise</span>
+        <span className="siTaxiOp">Scenic Waterfall Hikes</span>
         <span className="siSubtitle">
         One and Two-bedroom Suites Available
         </span>

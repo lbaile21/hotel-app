@@ -11,7 +11,7 @@ const SearchItem2 = () => {
       <div className="siDesc">
         <h1 className="siTitle">Sheraton Kaua‘i Resort Villas</h1>
         <span className="siDistance">Koloa, Kaua‘i, Hawai‘i, United States</span>
-        <span className="siTaxiOp">Breathtaking nature hikes</span>
+        <span className="siTaxiOp">Hikers Paradise</span>
         <span className="siSubtitle">
         One and Two-bedroom Suites Available
         </span>

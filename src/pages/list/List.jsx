@@ -90,8 +90,6 @@ const List = () => {
             <SearchItem />
             <SearchItem2 />
             <SearchItem3 />
-
-
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import {
   faHeart,
   faHouse,
   faShip,
+  faPersonHiking,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
@@ -190,6 +191,12 @@ const Header = ({ type }) => {
                   </div>
                 )}
               </div>
+              <FontAwesomeIcon icon={faPersonHiking} className="headerIcon" />
+                <input
+                  type="text"
+                  placeholder="Preferred activities?"
+                  className="headerSearchInput"
+                />
               <div className="headerSearchItem">
                 <button className="headerBtn" onClick={handleSearch}>
                   Search
